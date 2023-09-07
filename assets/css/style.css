@@ -12,14 +12,48 @@
     width: 100%;
     padding: 15px;
 
+    background: #00000045;
+
+    display: flex;
+    justify-content: center;
+
 }
+
+.top-bar:hover {
+    background: rgba(0, 0, 0, 0.45);
+}
+
+.top-bar h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.top-bar h1:hover {
+    background-size: 0 3px, 100% 3px;
+}
+
+.top-bar h1 {
+    background:
+        linear-gradient(to right,
+            rgb(100, 103, 200),
+            rgb(200, 100, 100),
+            rgb(200, 173, 100)),
+        linear-gradient(to right,
+            rgba(255, 0, 0, 1),
+            rgb(255, 204, 0),
+            rgb(0, 37, 200));
+    background-size: 100% 3px, 0 3px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 500ms;
+}
+
 /*  */
 
 
 .head {
     width: 100%;
     color: #fff;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     background: transparent;
 
@@ -69,6 +103,10 @@
     background-color: rgb(33, 70, 126);
 }
 
+.calculator form input:hover {
+    background: rgba(255, 255, 255, 0.257);
+}
+
 form .display {
     display: flex;
     justify-content: flex-end;
@@ -96,6 +134,9 @@ form input.equal-operator {
     background: rgb(63, 144, 16);
 }
 
+form input.equal-operator:hover {
+    background: rgb(67, 192, 5);
+}
 
 /* calculator 2 */
 
@@ -115,14 +156,19 @@ form input.equal-operator {
     margin: 5px;
 }
 
+
 .calculator2 form input {
     margin: 10px;
-    border: 0;
+
+    border-left: 0;
+    border-right: 0;
+    border-radius: 5px;
+    border-color: rgb(190, 121, 1);
 
     outline: 0;
     width: 60px;
     height: 60px;
-    border-radius: 5px;
+
     background: rgb(38, 11, 11);
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -139,6 +185,10 @@ form input.equal-operator {
 
 }
 
+.calculator2 form input:hover {
+    background: rgba(255, 255, 255, 0.257);
+    border-color: rgb(244, 110, 0);
+}
 
 /*  */
 
@@ -159,8 +209,12 @@ form input.operator2 {
 form input.equal-operator2 {
     color: rgb(255, 234, 0);
     background: rgb(63, 144, 16);
+
 }
 
+form input.equal-operator2:hover {
+    background: rgb(67, 192, 5);
+}
 
 /* calculator 2 */
 
@@ -211,6 +265,11 @@ form input.equal-operator2 {
 
 }
 
+.calculator3 form input:hover {
+    background: rgba(255, 255, 255, 0.257);
+    border-color: rgb(244, 110, 0);
+}
+
 /*  */
 form .display input {
     text-align: right;
@@ -231,5 +290,8 @@ form input.equal-operator3 {
     background: rgb(63, 144, 16);
 }
 
+form input.equal-operator3:hover {
+    background: rgb(67, 192, 5);
+}
 
-/* calculator 2 */
+/* calculator 3 */
