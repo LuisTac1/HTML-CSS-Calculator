@@ -12,7 +12,7 @@
     width: 100%;
     padding: 15px;
 
-    background: #00000045;
+    background: rgba(0, 0, 0, 0.45);
 
     display: flex;
     justify-content: center;
@@ -20,7 +20,7 @@
 }
 
 .top-bar:hover {
-    background: rgba(0, 0, 0, 0.45);
+    background: #00000045;
 }
 
 .top-bar h1 {
