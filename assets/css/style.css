@@ -81,7 +81,6 @@
 
 }
 
-
 .calculator form input {
     margin: 10px;
     border: 0;
@@ -114,7 +113,6 @@ form .display {
 
 }
 
-
 form .display input {
     text-align: right;
     flex: 1;
@@ -139,8 +137,6 @@ form input.equal-operator:hover {
 }
 
 /* calculator 2 */
-
-
 .head2 {
     width: 100%;
     color: #f6a400;
@@ -216,12 +212,9 @@ form input.equal-operator2:hover {
     background: rgb(67, 192, 5);
 }
 
-/* calculator 2 */
 
 
 /* calculator 3 */
-
-
 .head3 {
     width: 100%;
     color: #000000;
@@ -293,5 +286,3 @@ form input.equal-operator3 {
 form input.equal-operator3:hover {
     background: rgb(67, 192, 5);
 }
-
-/* calculator 3 */
